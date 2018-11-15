@@ -33,12 +33,15 @@ header{
 	border-bottom: 1px solid black;
 	}
 section {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba( 0, 0, 0, 0.8 );
 	width: 100%;
 	height: 880px;
 	float: left;
 	font-size: 20px;
 	text-align: center;
+}
+figure img{
+	border-radius: 20px;
 }
 footer {
 	background-color: #02050c;
@@ -62,11 +65,11 @@ a:link, a:visited {
 	text-decoration:none;
 }
 a:hover {
-    color: blue;
+    color: #3498db;
     text-decoration: underline;
 }
 a:active {
-	color: blue;
+	color: pink;
 	text-decoration:none;
 }
 a.active {
